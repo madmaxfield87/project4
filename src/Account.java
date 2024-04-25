@@ -21,6 +21,7 @@ public class Account {
 
     public void deposit(double Amount){
         balance += Amount;
+        System.out.println();
         System.out.println("The Amount depsoited:" + Amount);
         System.out.println("Your updated Balance is " + balance);
     }
